@@ -1,4 +1,4 @@
-public class ForMarcosLetraMC {
+public class forMarcosLetraMC {
     public void imprimirMCFor(char simbolo, int altura) {
         int anchuraM = 7;
         int anchuraC = 7;
