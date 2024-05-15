@@ -1,11 +1,6 @@
 public class serieFor {
-    //Series de Santiago
-    public static void main(String[] args) {
-        forSerieK(9, '*');
-        forSerieD(9, '*');
-        forSerieKD(9, 9, '*');
-    }
-    public static void forSerieK(int tamano, char caracter){
+
+    public void forKevinK(int tamano, char caracter){
         /* Objetivo
             
             *     *
@@ -36,7 +31,7 @@ public class serieFor {
     }
 
 
-    public static void forSerieD(int tamano, char caracter){
+    public void forDelaCruzD(int tamano, char caracter){
         /*Objetivo: 
         * * *
         *     *
@@ -62,7 +57,7 @@ public class serieFor {
         }
     }
 
-    public static void forSerieKD(int tamanoK, int tamanoD, char caracter){
+    public void forKevinDelaCruzKD(int tamanoK, int tamanoD, char caracter){
 
         /* Objetivo
             
