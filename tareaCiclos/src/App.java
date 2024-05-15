@@ -122,5 +122,23 @@ public class App {
         System.out.println("-----------------------------------");
         doWhileDanteZambranoLetrasDZ1 dDZ =new doWhileDanteZambranoLetrasDZ1();
         dDZ.doWhileDanteZambranoDZ(tamano, disenoLetra);
+        forCarlosC fcaC = new forCarlosC();
+        forFuentesF ff = new forFuentesF();
+        forCarlosFuentesCF fr = new forCarlosFuentesCF();
+        whileCarlosC fp = new whileCarlosC();
+        whileFuentesF fd = new whileFuentesF();
+        whileCarlosFuentesCF fw = new whileCarlosFuentesCF();
+        doWhileCarlosC dn = new doWhileCarlosC();
+        doWhileApellidoF da = new doWhileApellidoF();
+        doWhileCarlosFuentesCF di = new doWhileCarlosFuentesCF();
+        fcaC.inicial();
+        ff.apellido(args);
+        fr.iniciales(args);
+        fp.inicialWhile(args); 
+        fd.apellidoWhile(args);
+        fw.inicialesWhile(args);
+        dn.inicialDoWhile(args);
+        da.apellidoDoWhile(args);
+        di.inicialesDoWhile(args);
     }
 }

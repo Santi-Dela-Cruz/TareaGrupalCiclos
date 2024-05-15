@@ -1,8 +1,8 @@
-package carlosfuentes;
+
 import java.util.Scanner;
 
 public class forCarlosC {
-     public void inicial(String[] args) {
+     public void inicial() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el tamaño: ");

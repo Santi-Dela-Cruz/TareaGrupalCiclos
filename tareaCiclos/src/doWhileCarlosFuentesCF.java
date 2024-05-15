@@ -1,4 +1,4 @@
-package carlosfuentes;
+
 import java.util.Scanner;
 
 public class doWhileCarlosFuentesCF {
