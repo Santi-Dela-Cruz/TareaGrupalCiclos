@@ -1,5 +1,5 @@
-public class whileMarcosLetraMC {
-    public static void imprimirMCWhile(char simbolo, int altura) {
+public class WhileMarcosLetraMC {
+    public void imprimirMCWhile(char simbolo, int altura) {
         int anchuraM = 7;
         int anchuraC = 7;
         int i = 0;

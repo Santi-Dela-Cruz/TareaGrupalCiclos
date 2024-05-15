@@ -1,6 +1,6 @@
-public class forMarcosLetraM {
+public class ForMarcosLetraM {
 
-    public static void imprimirMFor(char simbolo, int altura) {
+    public void imprimirMFor(char simbolo, int altura) {
         int anchura = 7;
 
         for (int i = 0; i < altura; i++) {
