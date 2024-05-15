@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("TAREA GRUPAL CICLOS");
@@ -73,5 +75,52 @@ public class App {
         doWhileMarcosLetraMC imprimirMCCicloDoWhile = new doWhileMarcosLetraMC();
         imprimirMCCicloDoWhile.imprimirMCDoWhile('*', 7);
         System.out.println();
+
+        System.out.println("-------------------Dante Zambrano---------------------");
+        Scanner ingresoDatos = new Scanner(System.in);
+        System.out.println("Ingrese el tamano que desea");
+        int tamano = ingresoDatos.nextInt();
+
+        System.out.println("Ingrese el diseno de la letra");
+        ingresoDatos.nextLine(); 
+        String disenoLetra = ingresoDatos.nextLine();
+    
+        //Impresiones
+        System.out.println("-----------------------------------");
+        System.out.println(" ");
+        forDanteLetraD fD = new forDanteLetraD();
+        fD.forDanteD(tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        forZambranoLetraZ fZ = new forZambranoLetraZ();
+        fZ.forZambranoZ(tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        forDanteZambranoLetrasDZ fDZ = new forDanteZambranoLetrasDZ();
+        fDZ.forDanteZambranoDZ(tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        whileDanteLetraD wD = new whileDanteLetraD();
+        wD.whileDanteD(tamano, disenoLetra); 
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        WhileZambranoLetraZ wZ = new WhileZambranoLetraZ();
+        wZ.whileZambranoZ(tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        whileDanteZambranoLetrasDZ1 wDZ = new whileDanteZambranoLetrasDZ1();
+        wDZ.whileDanteZambranoDZ(tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        doWhileDanteLetraD dD = new doWhileDanteLetraD();
+        dD.doWhileDanteD (tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        doWhileZambranoLetraZ1 dZ = new doWhileZambranoLetraZ1();
+        dZ.doWhileZambranoZ(tamano, disenoLetra);
+        System.out.println(" ");
+        System.out.println("-----------------------------------");
+        doWhileDanteZambranoLetrasDZ1 dDZ =new doWhileDanteZambranoLetrasDZ1();
+        dDZ.doWhileDanteZambranoDZ(tamano, disenoLetra);
     }
 }
