@@ -1,8 +1,5 @@
 public class App {
     public static void main(String[] args) throws Exception {
-<<<<<<< HEAD
-        System.out.println("Hola Mundo"); 
-=======
         System.out.println("TAREA GRUPAL CICLOS");
         System.out.println("- Jonathan Cuasapaz");
         ForJonathanLetraJ fj = new ForJonathanLetraJ();
@@ -23,6 +20,19 @@ public class App {
         dwj.imprimirLetraJDoWhile(7, '+');
         dwc.imprimirLetraCDoWhile(7, '+');
         dwjc.imprimirLetrasJCDoWhile(7, '+');
->>>>>>> 166f5389e8f0dc469e9bbce763483b42d2cc0754
+
+        System.out.println("- Kevin De La Cruz");
+        serieFor for_KD = new serieFor();
+        whileSerieKD  while_KD = new whileSerieKD();
+        doWhileSerieKD doWhile_KD = new doWhileSerieKD();
+        for_KD.forKevinK(9, '*');
+        for_KD.forDelaCruzD(9, '*');
+        for_KD.forKevinDelaCruzKD(9, 9, '*');
+        while_KD.whileKevinK(9, '*');
+        while_KD.whileDelaCruzD(9, '*');
+        while_KD.whileKevinDelaCruzKD(9, 9, '*');
+        doWhile_KD.doWhileKevinK(9, '*');
+        doWhile_KD.doWhileDelaCruzD(9, '*');
+        doWhile_KD.doWhileKevinDelaCruzKD(9, 9, '*');
     }
 }
