@@ -34,6 +34,5 @@ public class App {
         doWhile_KD.doWhileKevinK(9, '*');
         doWhile_KD.doWhileDelaCruzD(9, '*');
         doWhile_KD.doWhileKevinDelaCruzKD(9, 9, '*');
-
     }
 }
