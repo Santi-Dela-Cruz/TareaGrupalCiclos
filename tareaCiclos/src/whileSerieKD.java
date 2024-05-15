@@ -1,15 +1,12 @@
-public class whileSerieKD {
+//Ciclos While - De La Cruz
 
-    public void whileKevinK(int tamano, char caracter) {
-        /* Objetivo
-         
-            *     *
-            *   *
-            * * 
-            *   *
-            *     *
-            
-        */
+public class whileSerieKD {
+    /**
+     * Funcion de tipo void que imprime la inicial del primer nombre del autor.
+     * @param tamano: Variable de tipo int que dara el tamano a la letra.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_whileKevinLetraK(int tamano, char caracter) {
         if (tamano < 3) {
             System.out.println("El tamaño debe ser al menos 3.");
             return;
@@ -33,17 +30,12 @@ public class whileSerieKD {
         }
     }
 
-    public void whileDelaCruzD(int tamano,char caracter){
-        /*Objetivo: 
-
-        * * *
-        *     *
-        *       *
-        *     *
-        * * *
-         
-         */
-
+/**
+     Funcion de tipo void que imprime la inicial del primer apellido del autor.
+     * @param tamano: Variable de tipo int que dara el tamano a la letra.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+ */
+    public void imprimir_whileDelaCruzLetraD(int tamano,char caracter){
         if (tamano < 5) {
             System.out.println("El tamaño debe ser al menos 3.");
             return;
@@ -65,7 +57,13 @@ public class whileSerieKD {
         }
     }
 
-    public void whileKevinDelaCruzKD(int tamanoK, int tamanoD, char caracter){
+    /**
+     * Funcion de tipo void que imprime las iniciales del nombre y apellido del autor.
+     * @param tamanoK: Variable de tipo int que le dara el tamano a la inicial del nombre.
+     * @param tamanoD: Variable de tipo int que le dara el tamano a la inicial del apellido.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_whileKevinDelaCruzLetrasKD(int tamanoK, int tamanoD, char caracter){
 
         if (tamanoK < 3) {
             System.out.println("El tamaño de la K debe ser al menos 3.");

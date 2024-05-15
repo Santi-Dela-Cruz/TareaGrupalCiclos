@@ -1,6 +1,13 @@
+//Ciclos Do_while - De La Cruz Kevin
 public class doWhileSerieKD {
 
-    public void doWhileKevinK(int tamano, char caracter){
+
+    /**
+     * Funcion de tipo void que imprime la inicial del primer nombre del autor.
+     * @param tamano: Variable de tipo int que dara el tamano a la letra.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_doWhileKevinLetraK(int tamano, char caracter){
 
         if (tamano < 3) {
             System.out.println("El tamaño debe ser al menos 3.");
@@ -27,7 +34,12 @@ public class doWhileSerieKD {
     } 
 
 
-    public void doWhileDelaCruzD(int tamano, char caracter){
+    /**
+     * Funcion de tipo void que imprime la inicial del primer apellido del autor.
+     * @param tamano: Variable de tipo int que dara el tamano a la letra.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_doWhileDelaCruzLetraD(int tamano, char caracter){
         if (tamano < 5) {
             System.out.println("El tamaño debe ser al menos 5.");
             return;
@@ -51,7 +63,14 @@ public class doWhileSerieKD {
         } while (i < tamano);
     }
 
-    public void doWhileKevinDelaCruzKD(int tamanoK, int tamanoD, char caracter){
+
+    /**
+     * Funcion de tipo void que imprime las iniciales del nombre y apellido del autor.
+     * @param tamanoK: Variable de tipo int que le dara el tamano a la inicial del nombre.
+     * @param tamanoD: Variable de tipo int que le dara el tamano a la inicial del apellido.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_doWhileKevinDelaCruzLetrasKD(int tamanoK, int tamanoD, char caracter){
 
         if (tamanoK < 3) {
             System.out.println("El tamaño de la K debe ser al menos 3.");

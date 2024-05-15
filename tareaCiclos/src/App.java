@@ -25,14 +25,14 @@ public class App {
         serieFor for_KD = new serieFor();
         whileSerieKD  while_KD = new whileSerieKD();
         doWhileSerieKD doWhile_KD = new doWhileSerieKD();
-        for_KD.forKevinK(9, '*');
-        for_KD.forDelaCruzD(9, '*');
-        for_KD.forKevinDelaCruzKD(9, 9, '*');
-        while_KD.whileKevinK(9, '*');
-        while_KD.whileDelaCruzD(9, '*');
-        while_KD.whileKevinDelaCruzKD(9, 9, '*');
-        doWhile_KD.doWhileKevinK(9, '*');
-        doWhile_KD.doWhileDelaCruzD(9, '*');
-        doWhile_KD.doWhileKevinDelaCruzKD(9, 9, '*');
+        for_KD.imprimir_forKevinLetraK(9, '*');
+        for_KD.imprimir_forDelaCruzLetraD(9, '*');
+        for_KD.imprimir_forKevinDelaCruzLetrasKD(9, 9, '*');
+        while_KD.imprimir_whileKevinLetraK(9, '*');
+        while_KD.imprimir_whileKevinDelaCruzLetrasKD(9, 9, '*');
+        while_KD.imprimir_whileKevinDelaCruzLetrasKD(9, 9, '*');
+        doWhile_KD.imprimir_doWhileKevinLetraK(9, '*');
+        doWhile_KD.imprimir_doWhileDelaCruzLetraD(9,'*');
+        doWhile_KD.imprimir_doWhileKevinDelaCruzLetrasKD(9, 9, '*');
     }
 }

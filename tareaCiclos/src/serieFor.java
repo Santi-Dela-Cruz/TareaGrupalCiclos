@@ -1,6 +1,13 @@
+//Ciclos For - De La Cruz Kevin
+
 public class serieFor {
 
-    public void forKevinK(int tamano, char caracter){
+    /**
+     * Funcion de tipo void que imprime la inicial del primer nombre del autor.
+     * @param tamano: Variable de tipo int que dara el tamano a la letra.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_forKevinLetraK(int tamano, char caracter){
         /* Objetivo
             
             *     *
@@ -31,7 +38,12 @@ public class serieFor {
     }
 
 
-    public void forDelaCruzD(int tamano, char caracter){
+    /**
+     Funcion de tipo void que imprime la inicial del primer apellido del autor.
+     * @param tamano: Variable de tipo int que dara el tamano a la letra.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_forDelaCruzLetraD(int tamano, char caracter){
         /*Objetivo: 
         * * *
         *     *
@@ -57,7 +69,13 @@ public class serieFor {
         }
     }
 
-    public void forKevinDelaCruzKD(int tamanoK, int tamanoD, char caracter){
+    /**
+      * Funcion de tipo void que imprime las iniciales del nombre y apellido del autor.
+     * @param tamanoK: Variable de tipo int que le dara el tamano a la inicial del nombre.
+     * @param tamanoD: Variable de tipo int que le dara el tamano a la inicial del apellido.
+     * @param caracter: Variable de tipo char que es el caracter con el que se formara la letra.
+     */
+    public void imprimir_forKevinDelaCruzLetrasKD(int tamanoK, int tamanoD, char caracter){
 
         /* Objetivo
             
