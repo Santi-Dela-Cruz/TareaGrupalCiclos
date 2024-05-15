@@ -1,5 +1,5 @@
-public class doWhileMarcosLetraC {
-    public static void imprimirCDoWhile(char simbolo, int altura) {
+public class DoWhileMarcosLetraC {
+    public void imprimirCDoWhile(char simbolo, int altura) {
         int anchura = 7;
         int i = 0;
 

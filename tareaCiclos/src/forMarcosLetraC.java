@@ -1,5 +1,5 @@
-public class forMarcosLetraC {
-    public static void imprimirCFor(char simbolo, int altura) {
+public class ForMarcosLetraC {
+    public void imprimirCFor(char simbolo, int altura) {
         int anchura = 7;
 
         for (int i = 0; i < altura; i++) {
@@ -17,5 +17,5 @@ public class forMarcosLetraC {
 
 /*En caso de querer usarla en la rama main
 forMarcosLetraC imprimirCCicloFor = new forMarcosLetraC();
-        imprimirCCicloFor.imprimirMFor('*', 7);
+        imprimirCCicloFor.imprimirCFor('*', 7);
 */
