@@ -129,7 +129,7 @@ public class App {
         whileFuentesF fd = new whileFuentesF();
         whileCarlosFuentesCF fw = new whileCarlosFuentesCF();
         doWhileCarlosC dn = new doWhileCarlosC();
-        doWhileApellidoF da = new doWhileApellidoF();
+        doWhileFuentesF da = new doWhileFuentesF();
         doWhileCarlosFuentesCF di = new doWhileCarlosFuentesCF();
         fcaC.inicial();
         ff.apellido(args);
